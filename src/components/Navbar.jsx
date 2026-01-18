@@ -4,7 +4,9 @@ import { ThemeContext } from './ThemeContext'
 import './styles/Navbar.css'
 
 const Navbar = () => {
-    const { theme, toggleTheme } = useContext(ThemeContext); const [isOpen, setIsOpen] = useState(false); const toggleNavbar = () => setIsOpen(!isOpen);
+    const { theme, toggleTheme } = useContext(ThemeContext); 
+    const [isOpen, setIsOpen] = useState(false); 
+    const toggleNavbar = () => setIsOpen(!isOpen);
     return (
         <nav className="navbar">
             <h3 className="web_name">Ayush Ghara Portfolio</h3>

@@ -61,11 +61,11 @@ const ProjectAndSkill = () => {
         />
         <Project
           src={project2}
-          alt="Upcoming Project"
-          name="My Canten"
-          href=""
-          techno="Kotlin,Firebase"
-          desc="My Canten is a food ordering web application that allows users to browse the menu and place orders seamlessly. Designed for convenience and clarity, it streamlines the dining experience by putting the entire canteen menu at your fingertips. The project is currently under development and will be available for use soon."
+          alt="2nd Project"
+          name="Mera Swasth"
+          href="https://mera-swasth.vercel.app/"
+          techno="Spring Boot, Spring Security, MySQL, React"
+          desc="Mera Swasth is a digital health companion that securely manages medical history, medicine inventory, and doctor appointments. It integrates smartwatch data like blood pressure and sugar levels, offering interactive graphs and insights to help users track trends, understand their health, and make informed wellness decisions."
         />
       </div>
     </div>

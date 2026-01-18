@@ -1,10 +1,10 @@
-import React from 'react'
 import myphoto from '../assets/profile/self.jpg'
 import './styles/Home.css'
-import anime from '../assets/hobby/anime.jpeg'
 import coding from '../assets/hobby/coding.jpeg'
-import gaming from '../assets/hobby/gaming.jpeg'
 import explore from '../assets/hobby/explore.jpeg'
+import Skill from './Skill'
+import nature from '../assets/hobby/nature.jpg'
+import Card from './Card'
 
 const Home = () => {
     return (
@@ -27,23 +27,9 @@ const Home = () => {
                 <h2>Hobbies</h2>
                 <p className="hobby-intro">Here's what keeps me inspired and energized outside of work:</p>
                 <ul className='hobby-list'>
-                    {/* Need to diplay in grid of 2x2 */}
-                    <li className='hobby'>
-                        Learn Coding
-                        <img src={coding} alt="anime" className="hover-img" />
-                    </li>
-                    <li className='hobby'>
-                        Watching Anime
-                        <img src={anime} alt="anime" className="hover-img" />
-                    </li>
-                    <li className='hobby'>
-                        Play videogames
-                        <img src={gaming} alt="anime" className="hover-img" />
-                    </li>
-                    <li className='hobby'>
-                        Explore new places
-                        <img src={explore} alt="anime" className="hover-img" />
-                    </li>
+                    <li><Card src={coding} alt="code" desc="Learn new tech stacks" /></li>
+                    <li><Card src={explore} alt="explore" desc="Explore new Places" /></li>
+                    <li><Card src={nature} alt="nature" desc="Take pictures of nature" /></li>
                 </ul>
             </div>
         </>
